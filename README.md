@@ -28,17 +28,18 @@ Set config
 const config = 
 {
 	testnet:{
-		rpcUrl: "",
-		contractAddress: ""
+		rpcUrl: "https://rpc.apothem.network/",
+		contractAddress: "xdc41da23dfaf3990f7831c838b54a7f734efcc5971"
 	},
 	mainnet:{ 
 		rpcUrl: "https://rpc.xinfin.network/",
 		contractAddress: "xdc295a7ab79368187a6cd03c464cfaab04d799784e"
 	},
-	defaultNetwork: "mainnet"
+	defaultNetwork: "mainnet" // testnet
 }
 
 ```
+To switch to testnet, pls change defaultNetwork: "testnet"
 
 Install
 
