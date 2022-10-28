@@ -1,4 +1,5 @@
-##Instructions for dApp integration with 3rd wallets that support XDC network such as: metamask, nabox, onto, dcent etc
+###
+Instructions for dApp integration with 3rd wallets that support XDC network such as: metamask, nabox, onto, dcent etc
 
 First step you need to install:
 
