@@ -1,24 +1,24 @@
-Instructions for dApp integration with 3rd wallets that support XDC network such as: metamask, nabox, onto, dcent etc
+##Instructions for dApp integration with 3rd wallets that support XDC network such as: metamask, nabox, onto, dcent etc
 
 First step you need to install:
 
 For Nodejs: 
-``
+```
 npm i xdc3
-``
+```
 
 For web app
 
-``
+```
 <script src="https://cdn.jsdelivr.net/npm/xdc3@1.3.13416/dist/web3.min.js"></script>
-``
+```
 
 You need to read more walletconnect to can do work with dcent or wallets that support walletconnect
 https://docs.walletconnect.com/1.0/quick-start/dapps/web3-provider
 
 Step 2:
 
-``
+```
 var adapters = ['metamask', 'xdcpay', 'nabox', 'dcent', ];
 var connector;
 
@@ -70,7 +70,7 @@ if (adapter == 'metamask')
 			await connector.enable();
 			window.web3 = new Web3(connector);
 		}
-``
+```
 
 Hope it helps, and we'll update when there's an integration for new wallets.
 Thanks!
